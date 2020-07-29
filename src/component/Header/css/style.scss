@@ -1,0 +1,11 @@
+@import '~antd/dist/antd.css';
+.ant-layout-header{
+    .ant-input-affix-wrapper{
+        background-color: hsla(0,0%,100%,.125);
+        border: none;
+        input.ant-input{
+            color: #fff;
+            background: transparent;
+        }
+    }    
+}
