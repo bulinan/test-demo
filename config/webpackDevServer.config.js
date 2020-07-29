@@ -102,8 +102,8 @@ module.exports = function(proxy, allowedHost) {
     public: allowedHost,
     // `proxy` is run between `before` and `after` `webpack-dev-server` hooks
     proxy:{
-      '/manage': {
-        target: 'https://testmanage.juxinggemedia.com', // 代理请求的后端ip端口
+      '/': {
+        target: 'https://api.github.com', // 代理请求的后端ip端口
         changeOrigin: true,
         secure: false
       }
