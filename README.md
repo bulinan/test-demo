@@ -15,5 +15,5 @@
 
 
 ### `最终展示效果`
-![image](https://github.com/bulinan/test-demo/blob/master/src/assets/images/01.png)
+![image](https://github.com/bulinan/test-demo/master/src/assets/images/01.png)
 
